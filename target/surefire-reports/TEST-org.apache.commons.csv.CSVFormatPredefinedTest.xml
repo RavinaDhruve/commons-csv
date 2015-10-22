@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.csv.CSVFormatPredefinedTest" time="0.001" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.csv.CSVFormatPredefinedTest" time="0.002" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
@@ -61,9 +61,9 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testTDF" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0"/>
+  <testcase name="testTDF" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0.002"/>
   <testcase name="testExcel" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0"/>
   <testcase name="testMySQL" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0"/>
   <testcase name="testRFC4180" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0"/>
-  <testcase name="testDefault" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0.001"/>
+  <testcase name="testDefault" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0"/>
 </testsuite>

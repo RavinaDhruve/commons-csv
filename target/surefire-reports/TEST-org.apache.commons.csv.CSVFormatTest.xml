@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.csv.CSVFormatTest" time="0.03" tests="44" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.csv.CSVFormatTest" time="0.029" tests="44" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
@@ -61,48 +61,48 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testEqualsIgnoreSurroundingSpaces" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
+  <testcase name="testEqualsIgnoreSurroundingSpaces" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
   <testcase name="testEqualsCommentStart" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
-  <testcase name="testWithDelimiter" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
+  <testcase name="testWithDelimiter" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testQuotePolicyNoneWithoutEscapeThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
-  <testcase name="testWithQuoteLFThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
-  <testcase name="testSerialization" classname="org.apache.commons.csv.CSVFormatTest" time="0.013"/>
-  <testcase name="testNullRecordSeparatorCsv106" classname="org.apache.commons.csv.CSVFormatTest" time="0.002"/>
-  <testcase name="testJiraCsv154_withCommentMarker" classname="org.apache.commons.csv.CSVFormatTest" time="0.002"/>
+  <testcase name="testWithQuoteLFThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
+  <testcase name="testSerialization" classname="org.apache.commons.csv.CSVFormatTest" time="0.016"/>
+  <testcase name="testNullRecordSeparatorCsv106" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
+  <testcase name="testJiraCsv154_withCommentMarker" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
   <testcase name="testEqualsQuoteChar" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
   <testcase name="testEqualsSkipHeaderRecord" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
-  <testcase name="testQuoteCharSameAsCommentStartThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
+  <testcase name="testQuoteCharSameAsCommentStartThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testWithRecordSeparatorCR" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testWithRecordSeparatorLF" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testWithEscapeCRThrowsExceptions" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testWithIgnoreEmptyLines" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testEqualsEscape" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
-  <testcase name="testEqualsHeader" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
+  <testcase name="testEqualsHeader" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testEqualsIgnoreEmptyLines" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testWithCommentStart" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testWithIgnoreSurround" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
-  <testcase name="testRFC4180" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
+  <testcase name="testRFC4180" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testEscapeSameAsCommentStartThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testDelimiterSameAsCommentStartThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testEqualsDelimiter" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testQuoteCharSameAsCommentStartThrowsExceptionForWrapperType" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testEqualsNullString" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testWithQuotePolicy" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
-  <testcase name="testEqualsQuotePolicy" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
+  <testcase name="testEqualsQuotePolicy" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testEscapeSameAsCommentStartThrowsExceptionForWrapperType" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
-  <testcase name="testEqualsRecordSeparator" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
-  <testcase name="testWithCommentStartCRThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
+  <testcase name="testEqualsRecordSeparator" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
+  <testcase name="testWithCommentStartCRThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testQuoteCharSameAsDelimiterThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testWithDelimiterLFThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testDelimiterSameAsEscapeThrowsException" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
   <testcase name="testWithEscape" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
-  <testcase name="testWithHeader" classname="org.apache.commons.csv.CSVFormatTest" time="0.004"/>
+  <testcase name="testWithHeader" classname="org.apache.commons.csv.CSVFormatTest" time="0.005"/>
   <testcase name="testGetHeader" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
-  <testcase name="testJiraCsv154_withHeaderComments" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
+  <testcase name="testJiraCsv154_withHeaderComments" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
   <testcase name="testWithQuoteChar" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testEquals" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testFormat" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
-  <testcase name="testWithRecordSeparatorCRLF" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
+  <testcase name="testWithRecordSeparatorCRLF" classname="org.apache.commons.csv.CSVFormatTest" time="0.001"/>
   <testcase name="testDuplicateHeaderElements" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
   <testcase name="testWithNullString" classname="org.apache.commons.csv.CSVFormatTest" time="0"/>
 </testsuite>
