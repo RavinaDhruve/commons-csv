@@ -28,7 +28,17 @@ public class RandoopTest extends TestCase {
     result.addTest(new TestSuite(RandoopTest7.class));
     result.addTest(new TestSuite(RandoopTest8.class));
     result.addTest(new TestSuite(RandoopTest9.class));
-    //result.addTest(new TestSuite(randoopFailures.RandoopTest_failure_1.class));
+    result.addTest(new TestSuite(RandoopTest10.class));
+    result.addTest(new TestSuite(RandoopTest11.class));
+    result.addTest(new TestSuite(RandoopTest12.class));
+    result.addTest(new TestSuite(RandoopTest13.class));
+    result.addTest(new TestSuite(RandoopTest14.class));
+    result.addTest(new TestSuite(RandoopTest15.class));
+    result.addTest(new TestSuite(RandoopTest16.class));
+    result.addTest(new TestSuite(RandoopTest17.class));
+    result.addTest(new TestSuite(RandoopTest18.class));
+    result.addTest(new TestSuite(RandoopTest19.class));
+   // result.addTest(new TestSuite(randoopFailures.RandoopTest_failure_1.class));
     return result;
   }
 

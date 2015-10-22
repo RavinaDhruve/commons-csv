@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.csv.CSVParserTest" time="0.022" tests="63" errors="0" skipped="3" failures="0">
+<testsuite name="org.apache.commons.csv.CSVParserTest" time="0.028" tests="63" errors="0" skipped="3" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
@@ -68,16 +68,16 @@
     <skipped/>
   </testcase>
   <testcase name="testExcelHeaderCountLessThanData" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testMultipleIterators" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testMultipleIterators" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testHeaderComment" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testDefaultFormat" classname="org.apache.commons.csv.CSVParserTest" time="0.003"/>
-  <testcase name="testGetRecordPositionWithCRLF" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testDefaultFormat" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
+  <testcase name="testGetRecordPositionWithCRLF" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testHeaderMissing" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testBOM" classname="org.apache.commons.csv.CSVParserTest" time="0">
     <skipped message="CSV-107"/>
   </testcase>
   <testcase name="testProvidedHeaderAuto" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testGetRecordWithMultiLineValues" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testGetRecordWithMultiLineValues" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testParseNullStringFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testGetRecordNumberWithCR" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testGetRecordNumberWithLF" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
@@ -85,35 +85,35 @@
   <testcase name="testClose" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testGetLineNumberWithCR" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testGetLineNumberWithLF" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testParserUrlNullCharsetFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testForEach" classname="org.apache.commons.csv.CSVParserTest" time="0.002"/>
-  <testcase name="testGetOneLine" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testParserUrlNullCharsetFormat" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
+  <testcase name="testForEach" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testGetOneLine" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testGetLineNumberWithCRLF" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testCarriageReturnLineFeedEndings" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testGetRecordNumberWithCRLF" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testParseUrlCharsetNullFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testEmptyFile" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testCarriageReturnEndings" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
-  <testcase name="testGetLine" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testEmptyFile" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
+  <testcase name="testCarriageReturnEndings" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testGetLine" classname="org.apache.commons.csv.CSVParserTest" time="0.002"/>
   <testcase name="testIgnoreCaseHeaderMapping" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testGetRecordPositionWithLF" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testGetOneLineOneParser" classname="org.apache.commons.csv.CSVParserTest" time="0.002"/>
+  <testcase name="testGetOneLineOneParser" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testHeadersMissingException" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testProvidedHeader" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testProvidedHeader" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testParseNullUrlCharsetFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testInvalidFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testBackslashEscaping2" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testExcelFormat1" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testExcelFormat2" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testEndOfFileBehaviourExcel" classname="org.apache.commons.csv.CSVParserTest" time="0.004"/>
+  <testcase name="testExcelFormat1" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
+  <testcase name="testExcelFormat2" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
+  <testcase name="testEndOfFileBehaviourExcel" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testRoundtrip" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testNoHeaderMap" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testParseFileNullFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testParseFileNullFormat" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testGetHeaderMap" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testBackslashEscaping" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testBackslashEscaping" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testLineFeedEndings" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testMappedButNotSetAsOutlook2007ContactExport" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testEmptyLineBehaviourCSV" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testEmptyLineBehaviourCSV" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testSkipSetHeader" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testHeaderMissingWithNull" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testIgnoreEmptyLines" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
@@ -121,13 +121,13 @@
   <testcase name="testNewCSVParserNullReaderFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testParseStringNullFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testEmptyLineBehaviourExcel" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
-  <testcase name="testHeader" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testHeader" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testGetRecords" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testHeadersMissing" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testBOMInputStream" classname="org.apache.commons.csv.CSVParserTest" time="0.008"/>
-  <testcase name="testDuplicateHeaders" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testBOMInputStream" classname="org.apache.commons.csv.CSVParserTest" time="0.006"/>
+  <testcase name="testDuplicateHeaders" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testIterator" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
-  <testcase name="testParseNullFileFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
+  <testcase name="testParseNullFileFormat" classname="org.apache.commons.csv.CSVParserTest" time="0.001"/>
   <testcase name="testSkipAutoHeader" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
   <testcase name="testNewCSVParserReaderNullFormat" classname="org.apache.commons.csv.CSVParserTest" time="0"/>
 </testsuite>
