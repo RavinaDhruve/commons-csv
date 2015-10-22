@@ -27,7 +27,7 @@ import org.junit.Assert;
  *
  * @version $Id$
  */
-/*
+
 final class Utils {
 
     private Utils() {
@@ -47,4 +47,4 @@ final class Utils {
         }
     }
 }
-*/
+
