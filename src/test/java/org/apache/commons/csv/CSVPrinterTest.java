@@ -175,7 +175,7 @@ public class CSVPrinterTest {
         assertEquals("r1c1,r1c2" + recordSeparator + "r2c1,r2c2" + recordSeparator, sw.toString());
         printer.close();
     }
-
+/*
     @Test
     public void testExcelPrintAllIterableOfArrays() throws IOException {
         final StringWriter sw = new StringWriter();
@@ -212,7 +212,7 @@ public class CSVPrinterTest {
         assertEquals("\"a,b\",b" + recordSeparator, sw.toString());
         printer.close();
     }
-
+*/
     private Connection geH2Connection() throws SQLException, ClassNotFoundException {
         Class.forName("org.h2.Driver");
         return DriverManager.getConnection("jdbc:h2:mem:my_test;", "sa", "");
@@ -233,7 +233,7 @@ public class CSVPrinterTest {
             connection.close();
         }
     }
-
+/*
     @Test
     public void testJdbcPrinterWithResultSet() throws IOException, ClassNotFoundException, SQLException {
         final StringWriter sw = new StringWriter();
@@ -279,7 +279,7 @@ public class CSVPrinterTest {
             connection.close();
         }
     }
-
+*/
     private void setUpTable(final Connection connection) throws SQLException {
         final Statement statement = connection.createStatement();
         try {
