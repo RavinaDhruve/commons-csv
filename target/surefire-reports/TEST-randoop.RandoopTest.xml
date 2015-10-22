@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="randoop.RandoopTest" time="0.616" tests="1729" errors="0" skipped="0" failures="0">
+<testsuite name="randoop.RandoopTest" time="0.242" tests="1729" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -61,103 +61,103 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="test100" classname="randoop.RandoopTest0" time="0.08"/>
+  <testcase name="test100" classname="randoop.RandoopTest0" time="0.023"/>
   <testcase name="test101" classname="randoop.RandoopTest0" time="0.003"/>
-  <testcase name="test102" classname="randoop.RandoopTest0" time="0.003"/>
+  <testcase name="test102" classname="randoop.RandoopTest0" time="0.002"/>
   <testcase name="test103" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test104" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test105" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test106" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test106" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test107" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test108" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test108" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test109" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test110" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test111" classname="randoop.RandoopTest0" time="0.004"/>
-  <testcase name="test112" classname="randoop.RandoopTest0" time="0.002"/>
-  <testcase name="test113" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test110" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test111" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test112" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test113" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test114" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test115" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test116" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test117" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test118" classname="randoop.RandoopTest0" time="0.003"/>
-  <testcase name="test119" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test116" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test117" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test118" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test119" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test120" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test121" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test122" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test123" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test123" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test124" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test125" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test126" classname="randoop.RandoopTest0" time="0.008"/>
+  <testcase name="test126" classname="randoop.RandoopTest0" time="0.003"/>
   <testcase name="test127" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test128" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test129" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test130" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test131" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test128" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test129" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test130" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test131" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test132" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test133" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test134" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test135" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test133" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test134" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test135" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test136" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test137" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test137" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test138" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test139" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test140" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test140" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test141" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test142" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test142" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test143" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test144" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test145" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test145" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test146" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test147" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test147" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test148" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test149" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test150" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test149" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test150" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test151" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test152" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test153" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test154" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test155" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test153" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test154" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test155" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test156" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test157" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test158" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test159" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test160" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test161" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test162" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test163" classname="randoop.RandoopTest0" time="0.004"/>
-  <testcase name="test164" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test165" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test166" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test161" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test162" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test163" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test164" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test165" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test166" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test167" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test168" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test169" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test170" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test171" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test172" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test172" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test173" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test174" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test175" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test176" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test177" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test176" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test177" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test178" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test179" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test180" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test181" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test180" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test181" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test182" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test183" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test184" classname="randoop.RandoopTest0" time="0.005"/>
-  <testcase name="test185" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test186" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test184" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test185" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test186" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test187" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test188" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test189" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test189" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test190" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test191" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test191" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test192" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test193" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test194" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test194" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test195" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test196" classname="randoop.RandoopTest0" time="0.005"/>
+  <testcase name="test196" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test197" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test198" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test199" classname="randoop.RandoopTest0" time="0"/>
@@ -165,139 +165,139 @@
   <testcase name="test201" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test202" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test203" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test204" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test204" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test205" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test206" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test207" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test208" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test208" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test209" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test210" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test211" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test212" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test213" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test214" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test215" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test210" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test211" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test212" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test213" classname="randoop.RandoopTest0" time="0.004"/>
+  <testcase name="test214" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test215" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test216" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test217" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test217" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test218" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test219" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test219" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test220" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test221" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test222" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test221" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test222" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test223" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test224" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test225" classname="randoop.RandoopTest0" time="0.01"/>
+  <testcase name="test224" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test225" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test226" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test227" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test227" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test228" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test229" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test230" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test231" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test232" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test233" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test234" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test234" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test235" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test236" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test236" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test237" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test238" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test239" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test240" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test241" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test242" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test242" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test243" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test244" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test244" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test245" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test246" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test246" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test247" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test248" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test249" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test250" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test250" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test251" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test252" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test252" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test253" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test254" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test255" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test256" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test256" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test257" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test258" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test258" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test259" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test260" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test261" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test262" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test262" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test263" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test264" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test264" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test265" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test266" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test267" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test268" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test269" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test268" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test269" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test270" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test271" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test272" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test273" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test273" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test274" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test275" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test276" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test276" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test277" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test278" classname="randoop.RandoopTest0" time="0.006"/>
+  <testcase name="test278" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test279" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test280" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test281" classname="randoop.RandoopTest0" time="0.003"/>
-  <testcase name="test282" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test283" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test281" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test282" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test283" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test284" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test285" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test286" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test285" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test286" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test287" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test288" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test289" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test290" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test291" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test288" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test289" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test290" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test291" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test292" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test293" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test294" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test294" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test295" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test296" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test296" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test297" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test298" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test298" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test299" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test300" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test300" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test301" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test302" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test303" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test303" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test304" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test305" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test305" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test306" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test307" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test307" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test308" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test309" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test309" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test310" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test311" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test312" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test311" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test312" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test313" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test314" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test314" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test315" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test316" classname="randoop.RandoopTest0" time="0.003"/>
+  <testcase name="test316" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test317" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test318" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test319" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test320" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test321" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test322" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test322" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test323" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test324" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test325" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test326" classname="randoop.RandoopTest0" time="0.004"/>
+  <testcase name="test326" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test327" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test328" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test329" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test330" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test331" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test332" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test332" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test333" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test334" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test335" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test336" classname="randoop.RandoopTest0" time="0.003"/>
+  <testcase name="test336" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test337" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test338" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test339" classname="randoop.RandoopTest0" time="0"/>
@@ -305,45 +305,45 @@
   <testcase name="test341" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test342" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test343" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test344" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test345" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test344" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test345" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test346" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test347" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test348" classname="randoop.RandoopTest0" time="0.003"/>
+  <testcase name="test348" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test349" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test350" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test351" classname="randoop.RandoopTest0" time="0.005"/>
-  <testcase name="test352" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test350" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test351" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test352" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test353" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test354" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test355" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test355" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test356" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test357" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test357" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test358" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test359" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test359" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test360" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test361" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test362" classname="randoop.RandoopTest0" time="0.004"/>
-  <testcase name="test363" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test362" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test363" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test364" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test365" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test366" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test367" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test368" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test368" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test369" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test370" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test371" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test372" classname="randoop.RandoopTest0" time="0.003"/>
+  <testcase name="test372" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test373" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test374" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test374" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test375" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test376" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test377" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test378" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test379" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test379" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test380" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test381" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test382" classname="randoop.RandoopTest0" time="0.003"/>
+  <testcase name="test381" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test382" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test383" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test384" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test385" classname="randoop.RandoopTest0" time="0"/>
@@ -351,37 +351,37 @@
   <testcase name="test387" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test388" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test389" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test390" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test390" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test391" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test392" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test393" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test394" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test395" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test396" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test397" classname="randoop.RandoopTest0" time="0.003"/>
-  <testcase name="test398" classname="randoop.RandoopTest0" time="0.007"/>
+  <testcase name="test396" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test397" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test398" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test399" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test400" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test401" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test402" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test403" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test403" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test404" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test405" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test406" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test407" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test408" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test409" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test410" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test410" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test411" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test412" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test413" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test414" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test415" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test416" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test416" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test417" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test418" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test419" classname="randoop.RandoopTest0" time="0.002"/>
-  <testcase name="test420" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test419" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test420" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test421" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test422" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test423" classname="randoop.RandoopTest0" time="0"/>
@@ -395,7 +395,7 @@
   <testcase name="test431" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test432" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test433" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test434" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test434" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test435" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test436" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test437" classname="randoop.RandoopTest0" time="0"/>
@@ -403,15 +403,15 @@
   <testcase name="test439" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test440" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test441" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test442" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test442" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test443" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test444" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test444" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test445" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test446" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test447" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test448" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test448" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test449" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test450" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test450" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test451" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test452" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test453" classname="randoop.RandoopTest0" time="0"/>
@@ -422,42 +422,42 @@
   <testcase name="test458" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test459" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test460" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test461" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test461" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test462" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test463" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test464" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test465" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test466" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test466" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test467" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test468" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test469" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test470" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test471" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test472" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test470" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test471" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test472" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test473" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test474" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test474" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test475" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test476" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test477" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test476" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test477" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test478" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test479" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test480" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test481" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test482" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test483" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test484" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test480" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test481" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test482" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test483" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test484" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test485" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test486" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test487" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test486" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test487" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test488" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test489" classname="randoop.RandoopTest0" time="0.005"/>
+  <testcase name="test489" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test490" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test491" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test491" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test492" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test493" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test494" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test495" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test496" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test496" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test497" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test498" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test499" classname="randoop.RandoopTest0" time="0"/>
@@ -467,50 +467,50 @@
   <testcase name="test12" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test13" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test14" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test15" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test15" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test16" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test17" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test17" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test18" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test19" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test20" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test20" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test21" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test22" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test23" classname="randoop.RandoopTest0" time="0.001"/>
-  <testcase name="test24" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test23" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test24" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test25" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test26" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test27" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test28" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test29" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test30" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test31" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test31" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test32" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test33" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test34" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test35" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test36" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test37" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test37" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test38" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test39" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test40" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test41" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test42" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test43" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test44" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test44" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test45" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test46" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test46" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test47" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test48" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test49" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test50" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test51" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test51" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test52" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test53" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test54" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test55" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test56" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test57" classname="randoop.RandoopTest0" time="0.003"/>
-  <testcase name="test58" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test57" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test58" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test59" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test60" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test61" classname="randoop.RandoopTest0" time="0"/>
@@ -523,69 +523,69 @@
   <testcase name="test68" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test69" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test70" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test71" classname="randoop.RandoopTest0" time="0.003"/>
+  <testcase name="test71" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test72" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test73" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test74" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test75" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test76" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test77" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test77" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test78" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test79" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test80" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test81" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test81" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test82" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test83" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test84" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test84" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test85" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test86" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test87" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test88" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test89" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test90" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test91" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test91" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test92" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test93" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test94" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test95" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test96" classname="randoop.RandoopTest0" time="0.001"/>
+  <testcase name="test96" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test97" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test98" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test99" classname="randoop.RandoopTest0" time="0"/>
+  <testcase name="test99" classname="randoop.RandoopTest0" time="0.001"/>
   <testcase name="test1" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test2" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test3" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test4" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test5" classname="randoop.RandoopTest0" time="0"/>
-  <testcase name="test6" classname="randoop.RandoopTest0" time="0.002"/>
+  <testcase name="test6" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test7" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test8" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test9" classname="randoop.RandoopTest0" time="0"/>
   <testcase name="test100" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test101" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test101" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test102" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test103" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test104" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test105" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test106" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test107" classname="randoop.RandoopTest1" time="0.004"/>
-  <testcase name="test108" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test109" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test107" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test108" classname="randoop.RandoopTest1" time="0.001"/>
+  <testcase name="test109" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test110" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test111" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test112" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test113" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test113" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test114" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test115" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test116" classname="randoop.RandoopTest1" time="0.002"/>
+  <testcase name="test116" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test117" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test118" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test119" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test120" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test120" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test121" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test122" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test123" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test124" classname="randoop.RandoopTest1" time="0.003"/>
+  <testcase name="test124" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test125" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test126" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test127" classname="randoop.RandoopTest1" time="0"/>
@@ -596,9 +596,9 @@
   <testcase name="test132" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test133" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test134" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test135" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test135" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test136" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test137" classname="randoop.RandoopTest1" time="0.007"/>
+  <testcase name="test137" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test138" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test139" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test140" classname="randoop.RandoopTest1" time="0"/>
@@ -608,17 +608,17 @@
   <testcase name="test144" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test145" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test146" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test147" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test147" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test148" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test149" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test150" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test151" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test152" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test153" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test153" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test154" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test155" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test156" classname="randoop.RandoopTest1" time="0.001"/>
-  <testcase name="test157" classname="randoop.RandoopTest1" time="0.002"/>
+  <testcase name="test156" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test157" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test158" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test159" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test160" classname="randoop.RandoopTest1" time="0"/>
@@ -627,17 +627,17 @@
   <testcase name="test163" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test164" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test165" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test166" classname="randoop.RandoopTest1" time="0.001"/>
+  <testcase name="test166" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test167" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test168" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test169" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test170" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test171" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test172" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test173" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test174" classname="randoop.RandoopTest1" time="0.002"/>
+  <testcase name="test173" classname="randoop.RandoopTest1" time="0.001"/>
+  <testcase name="test174" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test175" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test176" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test176" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test177" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test178" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test179" classname="randoop.RandoopTest1" time="0"/>
@@ -648,25 +648,25 @@
   <testcase name="test184" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test185" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test186" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test187" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test187" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test188" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test189" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test190" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test191" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test192" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test193" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test194" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test194" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test195" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test196" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test197" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test198" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test199" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test200" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test200" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test201" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test202" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test203" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test204" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test205" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test205" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test206" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test207" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test208" classname="randoop.RandoopTest1" time="0"/>
@@ -674,21 +674,21 @@
   <testcase name="test210" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test211" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test212" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test213" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test213" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test214" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test215" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test216" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test217" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test218" classname="randoop.RandoopTest1" time="0.009"/>
+  <testcase name="test218" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test219" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test220" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test221" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test222" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test222" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test223" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test224" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test225" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test226" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test227" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test227" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test228" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test229" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test230" classname="randoop.RandoopTest1" time="0"/>
@@ -701,10 +701,10 @@
   <testcase name="test237" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test238" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test239" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test240" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test240" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test241" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test242" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test243" classname="randoop.RandoopTest1" time="0.001"/>
+  <testcase name="test243" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test244" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test245" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test246" classname="randoop.RandoopTest1" time="0"/>
@@ -713,24 +713,24 @@
   <testcase name="test249" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test250" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test251" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test252" classname="randoop.RandoopTest1" time="0.003"/>
+  <testcase name="test252" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test253" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test254" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test255" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test256" classname="randoop.RandoopTest1" time="0.006"/>
+  <testcase name="test255" classname="randoop.RandoopTest1" time="0.001"/>
+  <testcase name="test256" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test257" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test258" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test259" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test260" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test261" classname="randoop.RandoopTest1" time="0.004"/>
-  <testcase name="test262" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test263" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test261" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test262" classname="randoop.RandoopTest1" time="0.001"/>
+  <testcase name="test263" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test264" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test265" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test266" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test267" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test268" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test269" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test269" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test270" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test271" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test272" classname="randoop.RandoopTest1" time="0"/>
@@ -738,14 +738,14 @@
   <testcase name="test274" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test275" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test276" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test277" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test277" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test278" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test279" classname="randoop.RandoopTest1" time="0.004"/>
+  <testcase name="test279" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test280" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test281" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test282" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test283" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test284" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test284" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test285" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test286" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test287" classname="randoop.RandoopTest1" time="0"/>
@@ -757,12 +757,12 @@
   <testcase name="test293" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test294" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test295" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test296" classname="randoop.RandoopTest1" time="0.002"/>
+  <testcase name="test296" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test297" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test298" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test299" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test300" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test301" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test301" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test302" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test303" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test304" classname="randoop.RandoopTest1" time="0"/>
@@ -778,30 +778,30 @@
   <testcase name="test314" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test315" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test316" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test317" classname="randoop.RandoopTest1" time="0.004"/>
+  <testcase name="test317" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test318" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test319" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test320" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test321" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test322" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test323" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test323" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test324" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test325" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test326" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test327" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test328" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test329" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test330" classname="randoop.RandoopTest1" time="0.001"/>
+  <testcase name="test330" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test331" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test332" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test332" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test333" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test334" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test335" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test336" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test337" classname="randoop.RandoopTest1" time="0.006"/>
+  <testcase name="test337" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test338" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test339" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test340" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test340" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test341" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test342" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test343" classname="randoop.RandoopTest1" time="0"/>
@@ -821,19 +821,19 @@
   <testcase name="test357" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test358" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test359" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test360" classname="randoop.RandoopTest1" time="0.001"/>
+  <testcase name="test360" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test361" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test362" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test363" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test364" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test365" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test365" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test366" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test367" classname="randoop.RandoopTest1" time="0.003"/>
+  <testcase name="test367" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test368" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test369" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test370" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test371" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test372" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test372" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test373" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test374" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test375" classname="randoop.RandoopTest1" time="0"/>
@@ -841,33 +841,33 @@
   <testcase name="test377" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test378" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test379" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test380" classname="randoop.RandoopTest1" time="0.001"/>
+  <testcase name="test380" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test381" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test382" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test382" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test383" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test384" classname="randoop.RandoopTest1" time="0.001"/>
+  <testcase name="test384" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test385" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test386" classname="randoop.RandoopTest1" time="0.01"/>
+  <testcase name="test386" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test387" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test388" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test389" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test390" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test391" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test392" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test393" classname="randoop.RandoopTest1" time="0.008"/>
+  <testcase name="test393" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test394" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test395" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test396" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test397" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test398" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test399" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test399" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test400" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test401" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test402" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test403" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test404" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test405" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test406" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test406" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test407" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test408" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test409" classname="randoop.RandoopTest1" time="0"/>
@@ -875,7 +875,7 @@
   <testcase name="test411" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test412" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test413" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test414" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test414" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test415" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test416" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test417" classname="randoop.RandoopTest1" time="0"/>
@@ -891,18 +891,18 @@
   <testcase name="test427" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test428" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test429" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test430" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test430" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test431" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test432" classname="randoop.RandoopTest1" time="0.016"/>
+  <testcase name="test432" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test433" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test434" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test435" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test436" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test437" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test437" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test438" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test439" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test440" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test441" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test441" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test442" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test443" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test444" classname="randoop.RandoopTest1" time="0"/>
@@ -910,18 +910,18 @@
   <testcase name="test446" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test447" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test448" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test449" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test449" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test450" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test451" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test452" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test453" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test454" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test455" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test456" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test456" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test457" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test458" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test459" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test460" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test460" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test461" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test462" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test463" classname="randoop.RandoopTest1" time="0"/>
@@ -929,25 +929,25 @@
   <testcase name="test465" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test466" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test467" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test468" classname="randoop.RandoopTest1" time="0.002"/>
-  <testcase name="test469" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test468" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test469" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test470" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test471" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test472" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test473" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test474" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test475" classname="randoop.RandoopTest1" time="0.01"/>
+  <testcase name="test475" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test476" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test477" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test478" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test479" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test480" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test481" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test482" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test482" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test483" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test484" classname="randoop.RandoopTest1" time="0.008"/>
+  <testcase name="test484" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test485" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test486" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test486" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test487" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test488" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test489" classname="randoop.RandoopTest1" time="0"/>
@@ -955,13 +955,13 @@
   <testcase name="test491" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test492" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test493" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test494" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test494" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test495" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test496" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test497" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test498" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test499" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test500" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test500" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test10" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test11" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test12" classname="randoop.RandoopTest1" time="0"/>
@@ -969,7 +969,7 @@
   <testcase name="test14" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test15" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test16" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test17" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test17" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test18" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test19" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test20" classname="randoop.RandoopTest1" time="0"/>
@@ -977,7 +977,7 @@
   <testcase name="test22" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test23" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test24" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test25" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test25" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test26" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test27" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test28" classname="randoop.RandoopTest1" time="0"/>
@@ -993,7 +993,7 @@
   <testcase name="test38" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test39" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test40" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test41" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test41" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test42" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test43" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test44" classname="randoop.RandoopTest1" time="0"/>
@@ -1001,27 +1001,27 @@
   <testcase name="test46" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test47" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test48" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test49" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test49" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test50" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test51" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test52" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test53" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test54" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test54" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test55" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test56" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test57" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test58" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test59" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test60" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test61" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test61" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test62" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test63" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test64" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test65" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test66" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test67" classname="randoop.RandoopTest1" time="0.003"/>
+  <testcase name="test67" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test68" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test69" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test69" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test70" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test71" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test72" classname="randoop.RandoopTest1" time="0"/>
@@ -1032,19 +1032,19 @@
   <testcase name="test77" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test78" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test79" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test80" classname="randoop.RandoopTest1" time="0.005"/>
+  <testcase name="test80" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test81" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test82" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test83" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test84" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test85" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test85" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test86" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test87" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test88" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test89" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test90" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test91" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test92" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test92" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test93" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test94" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test95" classname="randoop.RandoopTest1" time="0"/>
@@ -1055,22 +1055,22 @@
   <testcase name="test1" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test2" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test3" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test4" classname="randoop.RandoopTest1" time="0.001"/>
+  <testcase name="test4" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test5" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test6" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test7" classname="randoop.RandoopTest1" time="0"/>
-  <testcase name="test8" classname="randoop.RandoopTest1" time="0"/>
+  <testcase name="test8" classname="randoop.RandoopTest1" time="0.001"/>
   <testcase name="test9" classname="randoop.RandoopTest1" time="0"/>
   <testcase name="test100" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test101" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test102" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test103" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test104" classname="randoop.RandoopTest2" time="0.002"/>
+  <testcase name="test104" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test105" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test106" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test107" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test108" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test109" classname="randoop.RandoopTest2" time="0.007"/>
+  <testcase name="test109" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test110" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test111" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test112" classname="randoop.RandoopTest2" time="0"/>
@@ -1078,7 +1078,7 @@
   <testcase name="test114" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test115" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test116" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test117" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test117" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test118" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test119" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test120" classname="randoop.RandoopTest2" time="0"/>
@@ -1086,8 +1086,8 @@
   <testcase name="test122" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test123" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test124" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test125" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test126" classname="randoop.RandoopTest2" time="0.002"/>
+  <testcase name="test125" classname="randoop.RandoopTest2" time="0.001"/>
+  <testcase name="test126" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test127" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test128" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test129" classname="randoop.RandoopTest2" time="0"/>
@@ -1100,16 +1100,16 @@
   <testcase name="test136" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test137" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test138" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test139" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test139" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test140" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test141" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test142" classname="randoop.RandoopTest2" time="0.002"/>
+  <testcase name="test142" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test143" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test144" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test145" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test146" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test146" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test147" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test148" classname="randoop.RandoopTest2" time="0.003"/>
+  <testcase name="test148" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test149" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test150" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test151" classname="randoop.RandoopTest2" time="0"/>
@@ -1118,7 +1118,7 @@
   <testcase name="test154" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test155" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test156" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test157" classname="randoop.RandoopTest2" time="0.001"/>
+  <testcase name="test157" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test158" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test159" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test160" classname="randoop.RandoopTest2" time="0"/>
@@ -1127,14 +1127,14 @@
   <testcase name="test163" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test164" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test165" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test166" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test166" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test167" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test168" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test169" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test170" classname="randoop.RandoopTest2" time="0.002"/>
+  <testcase name="test170" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test171" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test172" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test173" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test173" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test174" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test175" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test176" classname="randoop.RandoopTest2" time="0"/>
@@ -1145,18 +1145,18 @@
   <testcase name="test181" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test182" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test183" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test184" classname="randoop.RandoopTest2" time="0.002"/>
+  <testcase name="test184" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test185" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test186" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test187" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test188" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test188" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test189" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test190" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test191" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test192" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test193" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test194" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test195" classname="randoop.RandoopTest2" time="0.01"/>
+  <testcase name="test195" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test196" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test197" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test198" classname="randoop.RandoopTest2" time="0"/>
@@ -1168,7 +1168,7 @@
   <testcase name="test204" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test205" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test206" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test207" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test207" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test208" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test209" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test210" classname="randoop.RandoopTest2" time="0"/>
@@ -1176,7 +1176,7 @@
   <testcase name="test212" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test213" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test214" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test215" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test215" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test216" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test217" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test218" classname="randoop.RandoopTest2" time="0"/>
@@ -1185,22 +1185,22 @@
   <testcase name="test221" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test222" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test223" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test224" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test225" classname="randoop.RandoopTest2" time="0.005"/>
+  <testcase name="test224" classname="randoop.RandoopTest2" time="0.001"/>
+  <testcase name="test225" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test226" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test227" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test228" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test229" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test230" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test231" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test232" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test232" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test233" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test234" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test235" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test236" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test237" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test238" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test239" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test239" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test240" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test241" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test242" classname="randoop.RandoopTest2" time="0"/>
@@ -1215,7 +1215,7 @@
   <testcase name="test251" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test252" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test253" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test254" classname="randoop.RandoopTest2" time="0.006"/>
+  <testcase name="test254" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test255" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test256" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test257" classname="randoop.RandoopTest2" time="0"/>
@@ -1235,17 +1235,17 @@
   <testcase name="test271" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test272" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test273" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test274" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test274" classname="randoop.RandoopTest2" time="0.007"/>
   <testcase name="test275" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test276" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test277" classname="randoop.RandoopTest2" time="0.001"/>
+  <testcase name="test277" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test278" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test279" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test280" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test281" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test282" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test283" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test284" classname="randoop.RandoopTest2" time="0.002"/>
+  <testcase name="test284" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test285" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test286" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test287" classname="randoop.RandoopTest2" time="0"/>
@@ -1253,10 +1253,10 @@
   <testcase name="test289" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test290" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test291" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test292" classname="randoop.RandoopTest2" time="0.011"/>
+  <testcase name="test292" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test293" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test294" classname="randoop.RandoopTest2" time="0.001"/>
-  <testcase name="test295" classname="randoop.RandoopTest2" time="0.009"/>
+  <testcase name="test294" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test295" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test296" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test297" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test298" classname="randoop.RandoopTest2" time="0"/>
@@ -1305,7 +1305,7 @@
   <testcase name="test341" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test342" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test343" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test344" classname="randoop.RandoopTest2" time="0.009"/>
+  <testcase name="test344" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test345" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test346" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test347" classname="randoop.RandoopTest2" time="0"/>
@@ -1314,7 +1314,7 @@
   <testcase name="test350" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test351" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test352" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test353" classname="randoop.RandoopTest2" time="0.006"/>
+  <testcase name="test353" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test354" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test355" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test356" classname="randoop.RandoopTest2" time="0"/>
@@ -1328,7 +1328,7 @@
   <testcase name="test364" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test365" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test366" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test367" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test367" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test368" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test369" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test370" classname="randoop.RandoopTest2" time="0"/>
@@ -1340,9 +1340,9 @@
   <testcase name="test376" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test377" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test378" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test379" classname="randoop.RandoopTest2" time="0.003"/>
+  <testcase name="test379" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test380" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test381" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test381" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test382" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test383" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test384" classname="randoop.RandoopTest2" time="0"/>
@@ -1351,7 +1351,7 @@
   <testcase name="test387" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test388" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test389" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test390" classname="randoop.RandoopTest2" time="0.007"/>
+  <testcase name="test390" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test391" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test392" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test393" classname="randoop.RandoopTest2" time="0"/>
@@ -1361,8 +1361,8 @@
   <testcase name="test397" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test398" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test399" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test400" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test401" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test400" classname="randoop.RandoopTest2" time="0.001"/>
+  <testcase name="test401" classname="randoop.RandoopTest2" time="0.008"/>
   <testcase name="test402" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test403" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test404" classname="randoop.RandoopTest2" time="0"/>
@@ -1439,7 +1439,7 @@
   <testcase name="test475" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test476" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test477" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test478" classname="randoop.RandoopTest2" time="0.009"/>
+  <testcase name="test478" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test479" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test480" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test481" classname="randoop.RandoopTest2" time="0"/>
@@ -1490,7 +1490,7 @@
   <testcase name="test35" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test36" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test37" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test38" classname="randoop.RandoopTest2" time="0.009"/>
+  <testcase name="test38" classname="randoop.RandoopTest2" time="0.001"/>
   <testcase name="test39" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test40" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test41" classname="randoop.RandoopTest2" time="0"/>
@@ -1498,24 +1498,24 @@
   <testcase name="test43" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test44" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test45" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test46" classname="randoop.RandoopTest2" time="0.008"/>
+  <testcase name="test46" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test47" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test48" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test49" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test50" classname="randoop.RandoopTest2" time="0.001"/>
+  <testcase name="test50" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test51" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test52" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test53" classname="randoop.RandoopTest2" time="0.001"/>
+  <testcase name="test53" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test54" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test55" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test56" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test57" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test58" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test59" classname="randoop.RandoopTest2" time="0.008"/>
-  <testcase name="test60" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test59" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test60" classname="randoop.RandoopTest2" time="0.003"/>
   <testcase name="test61" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test62" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test63" classname="randoop.RandoopTest2" time="0"/>
+  <testcase name="test63" classname="randoop.RandoopTest2" time="0.006"/>
   <testcase name="test64" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test65" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test66" classname="randoop.RandoopTest2" time="0"/>
@@ -1554,10 +1554,10 @@
   <testcase name="test99" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test1" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test2" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test3" classname="randoop.RandoopTest2" time="0.009"/>
+  <testcase name="test3" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test4" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test5" classname="randoop.RandoopTest2" time="0"/>
-  <testcase name="test6" classname="randoop.RandoopTest2" time="0.001"/>
+  <testcase name="test6" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test7" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test8" classname="randoop.RandoopTest2" time="0"/>
   <testcase name="test9" classname="randoop.RandoopTest2" time="0"/>
@@ -1605,7 +1605,7 @@
   <testcase name="test141" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test142" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test143" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test144" classname="randoop.RandoopTest3" time="0.002"/>
+  <testcase name="test144" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test145" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test146" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test147" classname="randoop.RandoopTest3" time="0"/>
@@ -1616,7 +1616,7 @@
   <testcase name="test152" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test153" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test154" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test155" classname="randoop.RandoopTest3" time="0.006"/>
+  <testcase name="test155" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test156" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test157" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test158" classname="randoop.RandoopTest3" time="0"/>
@@ -1647,7 +1647,7 @@
   <testcase name="test183" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test184" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test185" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test186" classname="randoop.RandoopTest3" time="0.004"/>
+  <testcase name="test186" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test187" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test188" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test189" classname="randoop.RandoopTest3" time="0"/>
@@ -1661,13 +1661,13 @@
   <testcase name="test197" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test198" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test199" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test200" classname="randoop.RandoopTest3" time="0"/>
+  <testcase name="test200" classname="randoop.RandoopTest3" time="0.01"/>
   <testcase name="test201" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test202" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test203" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test204" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test205" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test206" classname="randoop.RandoopTest3" time="0.004"/>
+  <testcase name="test206" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test207" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test208" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test209" classname="randoop.RandoopTest3" time="0"/>
@@ -1687,17 +1687,17 @@
   <testcase name="test223" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test224" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test225" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test226" classname="randoop.RandoopTest3" time="0.002"/>
+  <testcase name="test226" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test227" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test228" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test229" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test10" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test11" classname="randoop.RandoopTest3" time="0.001"/>
+  <testcase name="test11" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test12" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test13" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test14" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test15" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test16" classname="randoop.RandoopTest3" time="0.002"/>
+  <testcase name="test16" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test17" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test18" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test19" classname="randoop.RandoopTest3" time="0"/>
@@ -1709,7 +1709,7 @@
   <testcase name="test25" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test26" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test27" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test28" classname="randoop.RandoopTest3" time="0.004"/>
+  <testcase name="test28" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test29" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test30" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test31" classname="randoop.RandoopTest3" time="0"/>
@@ -1729,15 +1729,15 @@
   <testcase name="test45" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test46" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test47" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test48" classname="randoop.RandoopTest3" time="0.003"/>
+  <testcase name="test48" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test49" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test50" classname="randoop.RandoopTest3" time="0.003"/>
+  <testcase name="test50" classname="randoop.RandoopTest3" time="0.009"/>
   <testcase name="test51" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test52" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test53" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test54" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test55" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test56" classname="randoop.RandoopTest3" time="0.008"/>
+  <testcase name="test56" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test57" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test58" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test59" classname="randoop.RandoopTest3" time="0"/>
@@ -1758,19 +1758,19 @@
   <testcase name="test74" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test75" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test76" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test77" classname="randoop.RandoopTest3" time="0.001"/>
+  <testcase name="test77" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test78" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test79" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test80" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test81" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test82" classname="randoop.RandoopTest3" time="0.001"/>
+  <testcase name="test82" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test83" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test84" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test85" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test86" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test87" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test88" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test89" classname="randoop.RandoopTest3" time="0.002"/>
+  <testcase name="test89" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test90" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test91" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test92" classname="randoop.RandoopTest3" time="0"/>
@@ -1785,7 +1785,7 @@
   <testcase name="test2" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test3" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test4" classname="randoop.RandoopTest3" time="0"/>
-  <testcase name="test5" classname="randoop.RandoopTest3" time="0.001"/>
+  <testcase name="test5" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test6" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test7" classname="randoop.RandoopTest3" time="0"/>
   <testcase name="test8" classname="randoop.RandoopTest3" time="0"/>
