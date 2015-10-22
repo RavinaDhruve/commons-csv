@@ -126,7 +126,7 @@ public class CSVParserTest {
                 { " / ", " , ", " ," }, // 3
         };
 
-        /*final CSVFormat format = CSVFormat.newFormat(',').withRecordSeparator(CRLF).withEscape('/')
+        final CSVFormat format = CSVFormat.newFormat(',').withRecordSeparator(CRLF).withEscape('/')
                 .withIgnoreEmptyLines();
 
         final CSVParser parser = CSVParser.parse(code, format);
@@ -134,7 +134,7 @@ public class CSVParserTest {
         assertTrue(records.size() > 0);
 
         Utils.compare("", res, records);
-        parser.close();*/
+        parser.close();
     }
 
     @Test
@@ -178,7 +178,7 @@ public class CSVParserTest {
     public void testBOMInputStream() throws IOException {
         final URL url = ClassLoader.getSystemClassLoader().getResource("CSVFileParser/bom.csv");
         final Reader reader = new InputStreamReader(new BOMInputStream(url.openStream()), "UTF-8");
-        /*final CSVParser parser = new CSVParser(reader, CSVFormat.EXCEL.withHeader());
+        final CSVParser parser = new CSVParser(reader, CSVFormat.EXCEL.withHeader());
         try {
             for (final CSVRecord record : parser) {
                 final String string = record.get("Date");
@@ -188,7 +188,7 @@ public class CSVParserTest {
         } finally {
             parser.close();
             reader.close();
-        }*/
+        }
     }
 
     @Test
@@ -270,7 +270,7 @@ public class CSVParserTest {
         final String[] codes = { "hello,\r\n\r\n\r\n", "hello,\n\n\n", "hello,\"\"\r\n\r\n\r\n", "hello,\"\"\n\n\n" };
         final String[][] res = { { "hello", "" } // CSV format ignores empty lines
         };
-        /*for (final String code : codes) {
+        for (final String code : codes) {
             final CSVParser parser = CSVParser.parse(code, CSVFormat.DEFAULT);
             final List<CSVRecord> records = parser.getRecords();
             assertEquals(res.length, records.size());
@@ -279,7 +279,7 @@ public class CSVParserTest {
                 assertArrayEquals(res[i], records.get(i).values());
             }
             parser.close();
-        }*/
+        }
     }
 
     @Test
