@@ -50,7 +50,7 @@ public class CSVFormatTest {
         assertFalse(left.equals(right));
     }
 
-    private static CSVFormat copy(final CSVFormat format) {
+    /*private static CSVFormat copy(final CSVFormat format) {
         return format.withDelimiter(format.getDelimiter());
     }
 
@@ -67,7 +67,7 @@ public class CSVFormatTest {
     @Test(expected = IllegalArgumentException.class)
     public void testDuplicateHeaderElements() {
         CSVFormat.DEFAULT.withHeader("A", "A");
-    }
+    }*/
 
     @Test
     public void testEquals() {
@@ -86,7 +86,7 @@ public class CSVFormatTest {
     }
 
     @Test
-    public void testEqualsCommentStart() {
+    /*public void testEqualsCommentStart() {
         final CSVFormat right = CSVFormat.newFormat('\'')
                 .withQuote('"')
                 .withCommentMarker('#')
@@ -95,7 +95,7 @@ public class CSVFormatTest {
                 .withCommentMarker('!');
 
         assertNotEquals(right, left);
-    }
+    }*/
 
     @Test
     public void testEqualsDelimiter() {
