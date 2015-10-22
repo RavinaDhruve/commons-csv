@@ -68,6 +68,7 @@ limitations under the License.
     <module name="ArrayTypeStyle">
     <property name="javaStyle" value="false"/>
 	</module>
+	<module name="CommentsIndentation"/>
   </module>
 
  
