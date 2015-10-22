@@ -1,7 +1,5 @@
 randoopFailures/RandoopTest_failure_1.class
 org/apache/commons/csv/AssertionsTest.class
-randoop/RandoopTest15.class
-randoop/RandoopTest18.class
 randoop/RandoopTest5.class
 org/apache/commons/csv/TokenMatchers$2.class
 randoop/RandoopTest2.class
@@ -10,7 +8,6 @@ org/apache/commons/csv/perf/PerformanceTest.class
 org/apache/commons/csv/TokenMatchersTest.class
 org/apache/commons/csv/CSVParserTest.class
 org/apache/commons/csv/PerformanceTest.class
-randoop/RandoopTest12.class
 org/apache/commons/csv/CSVRecordTest$EnumFixture.class
 org/apache/commons/csv/ExtendedBufferedReaderTest.class
 randoop/RandoopTest9.class
@@ -19,21 +16,16 @@ org/apache/commons/csv/LexerTest.class
 org/apache/commons/csv/TokenMatchers.class
 randoop/RandoopTest6.class
 randoop/RandoopTest3.class
-randoop/RandoopTest16.class
 org/apache/commons/csv/TokenMatchers$1.class
 org/apache/commons/csv/FercGovTest$ContractColumnNames.class
-randoop/RandoopTest13.class
 org/apache/commons/csv/CSVFileParserTest$1.class
 org/apache/commons/csv/Utils.class
 randoop/RandoopTest0.class
-randoop/RandoopTest10.class
 org/apache/commons/csv/TokenMatchers$3.class
 randoop/RandoopTest.class
-randoop/RandoopTest17.class
 org/apache/commons/csv/PerformanceTest$1.class
 org/apache/commons/csv/CSVRecordTest.class
 randoop/RandoopTest7.class
-randoop/RandoopTest14.class
 randoop/RandoopTest4.class
 org/apache/commons/csv/CSVFormatPredefinedTest.class
 org/apache/commons/csv/FercGovTest.class
@@ -41,4 +33,3 @@ randoop/RandoopTest1.class
 org/apache/commons/csv/CSVPrinterTest.class
 randoop/RandoopTest8.class
 org/apache/commons/csv/CSVFormatTest.class
-randoop/RandoopTest11.class

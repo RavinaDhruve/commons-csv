@@ -61,6 +61,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testContractFile" classname="org.apache.commons.csv.FercGovTest" time="0"/>
-  <testcase name="testTransactionFile" classname="org.apache.commons.csv.FercGovTest" time="0.003"/>
+  <testcase name="testContractFile" classname="org.apache.commons.csv.FercGovTest" time="0.002"/>
+  <testcase name="testTransactionFile" classname="org.apache.commons.csv.FercGovTest" time="0.001"/>
 </testsuite>
