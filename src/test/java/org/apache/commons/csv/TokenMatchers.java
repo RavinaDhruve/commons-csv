@@ -25,7 +25,6 @@ import org.hamcrest.TypeSafeDiagnosingMatcher;
 /**
  * Collection of matchers for asserting the type and content of tokens.
  */
-
 final class TokenMatchers {
 
     public static Matcher<Token> hasType(final Token.Type expectedType) {
@@ -88,4 +87,3 @@ final class TokenMatchers {
     }
 
 }
-

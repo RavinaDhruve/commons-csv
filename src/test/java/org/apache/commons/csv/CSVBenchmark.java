@@ -45,7 +45,6 @@ import org.openjdk.jmh.infra.Blackhole;
 import org.supercsv.io.CsvListReader;
 import org.supercsv.prefs.CsvPreference;
 
-
 @BenchmarkMode(Mode.AverageTime)
 @Fork(value = 1, jvmArgs = {"-server", "-Xms1024M", "-Xmx1024M"})
 @Threads(1)
@@ -209,4 +208,3 @@ public class CSVBenchmark {
         return count;
     }
 }
-

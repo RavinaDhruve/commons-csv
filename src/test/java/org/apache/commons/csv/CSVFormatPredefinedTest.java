@@ -23,7 +23,6 @@ import org.junit.Test;
 /**
  * Tests {@link CSVFormat.Predefined}.
  */
-/*
 public class CSVFormatPredefinedTest {
 
     private void test(final CSVFormat format, final String enumName) {
@@ -56,4 +55,3 @@ public class CSVFormatPredefinedTest {
         test(CSVFormat.TDF, "TDF");
     }
 }
-*/

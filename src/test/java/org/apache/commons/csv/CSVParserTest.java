@@ -58,7 +58,6 @@ import org.junit.Test;
  *
  * @version $Id$
  */
-/*
 public class CSVParserTest {
 
     private static final String CSV_INPUT = "a,b,c,d\n" + " a , b , 1 2 \n" + "\"foo baar\", b,\n"
@@ -127,7 +126,7 @@ public class CSVParserTest {
                 { " / ", " , ", " ," }, // 3
         };
 
-        /*final CSVFormat format = CSVFormat.newFormat(',').withRecordSeparator(CRLF).withEscape('/')
+        final CSVFormat format = CSVFormat.newFormat(',').withRecordSeparator(CRLF).withEscape('/')
                 .withIgnoreEmptyLines();
 
         final CSVParser parser = CSVParser.parse(code, format);
@@ -179,7 +178,7 @@ public class CSVParserTest {
     public void testBOMInputStream() throws IOException {
         final URL url = ClassLoader.getSystemClassLoader().getResource("CSVFileParser/bom.csv");
         final Reader reader = new InputStreamReader(new BOMInputStream(url.openStream()), "UTF-8");
-        /*final CSVParser parser = new CSVParser(reader, CSVFormat.EXCEL.withHeader());
+        final CSVParser parser = new CSVParser(reader, CSVFormat.EXCEL.withHeader());
         try {
             for (final CSVRecord record : parser) {
                 final String string = record.get("Date");
@@ -271,7 +270,7 @@ public class CSVParserTest {
         final String[] codes = { "hello,\r\n\r\n\r\n", "hello,\n\n\n", "hello,\"\"\r\n\r\n\r\n", "hello,\"\"\n\n\n" };
         final String[][] res = { { "hello", "" } // CSV format ignores empty lines
         };
-        /*for (final String code : codes) {
+        for (final String code : codes) {
             final CSVParser parser = CSVParser.parse(code, CSVFormat.DEFAULT);
             final List<CSVRecord> records = parser.getRecords();
             assertEquals(res.length, records.size());
@@ -390,7 +389,7 @@ public class CSVParserTest {
 
     /**
      * Tests an exported Excel worksheet with a header row and rows that have more columns than the headers
-     
+     */
     @Test
     public void testExcelHeaderCountLessThanData() throws Exception {
         final String code = "A,B,C,,\r\na,b,c,d,e\r\n";
@@ -499,7 +498,7 @@ public class CSVParserTest {
      * Tests reusing a parser to process new string records one at a time as they are being discovered. See [CSV-110].
      *
      * @throws IOException
-     
+     */
     @Test
     public void testGetOneLineOneParser() throws IOException {
         final PipedWriter writer = new PipedWriter();
@@ -986,4 +985,3 @@ public class CSVParserTest {
         assertEquals("3", record.get("THREE"));
     }
 }
-*/

@@ -43,7 +43,6 @@ import org.junit.Test;
  *
  * @version $Id$
  */
-/*
 public class LexerTest {
 
     private CSVFormat formatWithEscaping;
@@ -196,7 +195,7 @@ public class LexerTest {
     public void testBackslashWithoutEscaping() throws IOException {
         /* file: a,\,,b
         *       \,,
-        
+        */
         final String code = "a,\\,,b\\\n\\,,";
         final CSVFormat format = CSVFormat.DEFAULT;
         assertFalse(format.isEscapeCharacterSet());
@@ -218,7 +217,7 @@ public class LexerTest {
     public void testBackslashWithEscaping() throws IOException {
         /* file: a,\,,b
         *       \,,
-        
+        */
         final String code = "a,\\,,b\\\\\n\\,,\\\nc,d\\\r\ne";
         final CSVFormat format = formatWithEscaping.withIgnoreEmptyLines(false);
         assertTrue(format.isEscapeCharacterSet());
@@ -240,7 +239,7 @@ public class LexerTest {
         *        a,   " foo",b
         *        a,"foo "   ,b     // whitespace after closing encapsulator
         *        a,  " foo " ,b
-        
+        */
         final String code = "a,\"foo\",b\na,   \" foo\",b\na,\"foo \"  ,b\na,  \" foo \"  ,b";
         final Lexer parser = getLexer(code, CSVFormat.DEFAULT.withIgnoreSurroundingSpaces());
         assertThat(parser.nextToken(new Token()), matches(TOKEN, "a"));
@@ -278,7 +277,7 @@ public class LexerTest {
         *       '
         *       !comment;;;;
         *       ;;
-        
+        */
         final String code = "a;'b and '' more\n'\n!comment;;;;\n;;";
         final CSVFormat format = CSVFormat.DEFAULT.withQuote('\'').withCommentMarker('!').withDelimiter(';');
         final Lexer parser = getLexer(code, format);
@@ -395,4 +394,3 @@ public class LexerTest {
         lexer.nextToken(new Token());
     }
 }
-*/

@@ -43,14 +43,13 @@ import org.junit.Test;
  *
  * @version $Id$
  */
-/*
 public class CSVFormatTest {
 
     private static void assertNotEquals(final Object right, final Object left) {
         assertFalse(right.equals(left));
         assertFalse(left.equals(right));
     }
-    
+
     private static CSVFormat copy(final CSVFormat format) {
         return format.withDelimiter(format.getDelimiter());
     }
@@ -69,7 +68,7 @@ public class CSVFormatTest {
     public void testDuplicateHeaderElements() {
         CSVFormat.DEFAULT.withHeader("A", "A");
     }
-/*
+
     @Test
     public void testEquals() {
         final CSVFormat right = CSVFormat.DEFAULT;
@@ -105,7 +104,7 @@ public class CSVFormatTest {
 
         assertNotEquals(right, left);
     }
-    
+
     @Test
     public void testEqualsEscape() {
         final CSVFormat right = CSVFormat.newFormat('\'')
@@ -456,5 +455,3 @@ public class CSVFormatTest {
         assertEquals(CRLF, formatWithRecordSeparator.getRecordSeparator());
     }
 }
-*/
-

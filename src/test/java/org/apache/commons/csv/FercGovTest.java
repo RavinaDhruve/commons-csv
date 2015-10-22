@@ -27,7 +27,6 @@ import org.junit.Test;
 /**
  * Real world examples from http://www.ferc.gov/docs-filing/eqr/soft-tools/sample-csv.asp
  */
-/*
 public class FercGovTest {
 
     private enum ContractColumnNames {
@@ -88,4 +87,3 @@ public class FercGovTest {
         }
     }
 }
-*/

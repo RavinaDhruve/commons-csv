@@ -42,7 +42,6 @@ import org.junit.Test;
  *
  * @version $Id$
  */
-/*
 public class CSVPrinterTest {
 
     private final String recordSeparator = CSVFormat.DEFAULT.getRecordSeparator();
@@ -652,4 +651,3 @@ public class CSVPrinterTest {
         new CSVPrinter(new StringWriter(), null).close();
     }
 }
-*/
