@@ -45,6 +45,7 @@ import org.openjdk.jmh.infra.Blackhole;
 import org.supercsv.io.CsvListReader;
 import org.supercsv.prefs.CsvPreference;
 
+/*
 @BenchmarkMode(Mode.AverageTime)
 @Fork(value = 1, jvmArgs = {"-server", "-Xms1024M", "-Xmx1024M"})
 @Threads(1)
@@ -58,7 +59,7 @@ public class CSVBenchmark {
 
     /**
      * Load the data in memory before running the benchmarks, this takes out IO from the results.
-     */
+     
     @Setup
     public void init() throws IOException {
         final File file = new File("src/test/resources/perf/worldcitiespop.txt.gz");
@@ -208,3 +209,4 @@ public class CSVBenchmark {
         return count;
     }
 }
+*/
