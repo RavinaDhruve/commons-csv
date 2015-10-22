@@ -58,6 +58,7 @@ import org.junit.Test;
  *
  * @version $Id$
  */
+/*
 public class CSVParserTest {
 
     private static final String CSV_INPUT = "a,b,c,d\n" + " a , b , 1 2 \n" + "\"foo baar\", b,\n"
@@ -134,7 +135,7 @@ public class CSVParserTest {
         assertTrue(records.size() > 0);
 
         Utils.compare("", res, records);
-        parser.close();*/
+        parser.close();
     }
 
     @Test
@@ -188,7 +189,7 @@ public class CSVParserTest {
         } finally {
             parser.close();
             reader.close();
-        }*/
+        }
     }
 
     @Test
@@ -279,7 +280,7 @@ public class CSVParserTest {
                 assertArrayEquals(res[i], records.get(i).values());
             }
             parser.close();
-        }*/
+        }
     }
 
     @Test
@@ -389,7 +390,7 @@ public class CSVParserTest {
 
     /**
      * Tests an exported Excel worksheet with a header row and rows that have more columns than the headers
-     */
+     
     @Test
     public void testExcelHeaderCountLessThanData() throws Exception {
         final String code = "A,B,C,,\r\na,b,c,d,e\r\n";
@@ -498,7 +499,7 @@ public class CSVParserTest {
      * Tests reusing a parser to process new string records one at a time as they are being discovered. See [CSV-110].
      *
      * @throws IOException
-     */
+     
     @Test
     public void testGetOneLineOneParser() throws IOException {
         final PipedWriter writer = new PipedWriter();
@@ -985,3 +986,4 @@ public class CSVParserTest {
         assertEquals("3", record.get("THREE"));
     }
 }
+*/

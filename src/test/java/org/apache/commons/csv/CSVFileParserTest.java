@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+/*
 package org.apache.commons.csv;
 
 import static org.junit.Assert.assertEquals;
@@ -39,12 +39,13 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
-
+*/
 /**
  * Parse tests using test files
  *
  * @version $Id$
  */
+/*
 @RunWith(Parameterized.class)
 public class CSVFileParserTest {
 
@@ -175,3 +176,4 @@ public class CSVFileParserTest {
         parser.close();
     }
 }
+*/

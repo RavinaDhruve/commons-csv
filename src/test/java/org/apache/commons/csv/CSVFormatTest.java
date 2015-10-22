@@ -43,6 +43,7 @@ import org.junit.Test;
  *
  * @version $Id$
  */
+/*
 public class CSVFormatTest {
 
     private static void assertNotEquals(final Object right, final Object left) {
@@ -149,7 +150,7 @@ public class CSVFormatTest {
 
         assertNotEquals(right, left);
     }
-*/
+
     @Test
     public void testEqualsIgnoreSurroundingSpaces() {
         final CSVFormat right = CSVFormat.newFormat('\'')
@@ -455,3 +456,5 @@ public class CSVFormatTest {
         assertEquals(CRLF, formatWithRecordSeparator.getRecordSeparator());
     }
 }
+*/
+

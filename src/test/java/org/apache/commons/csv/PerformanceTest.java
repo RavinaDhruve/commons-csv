@@ -37,6 +37,7 @@ import org.apache.commons.io.IOUtils;
  *
  * @version $Id$
  */
+/*
 @SuppressWarnings("boxing")
 public class PerformanceTest {
 
@@ -292,3 +293,4 @@ public class PerformanceTest {
    }
 
 }
+*/

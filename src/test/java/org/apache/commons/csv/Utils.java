@@ -27,6 +27,7 @@ import org.junit.Assert;
  *
  * @version $Id$
  */
+/*
 final class Utils {
 
     private Utils() {
@@ -38,7 +39,7 @@ final class Utils {
      * @param message the message to be displayed
      * @param expected the 2d array of expected results
      * @param actual the List of {@link CSVRecord} entries, each containing an array of values
-     */
+     
     public static void compare(final String message, final String[][] expected, final List<CSVRecord> actual) {
         Assert.assertEquals(message+"  - outer array size", expected.length, actual.size());
         for(int i = 0; i < expected.length; i++) {
@@ -46,3 +47,4 @@ final class Utils {
         }
     }
 }
+*/

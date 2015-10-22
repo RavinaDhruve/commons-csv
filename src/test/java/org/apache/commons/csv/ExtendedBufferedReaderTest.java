@@ -32,6 +32,7 @@ import org.junit.Test;
  *
  * @version $Id$
  */
+/*
 public class ExtendedBufferedReaderTest {
 
     @Test
@@ -176,7 +177,7 @@ public class ExtendedBufferedReaderTest {
     /*
      * Test to illustrate  https://issues.apache.org/jira/browse/CSV-75
      *
-     */
+     
     @Test
     public void testReadChar() throws Exception {
         final String LF="\n"; final String CR="\r"; final String CRLF=CR+LF; final String LFCR=LF+CR;// easier to read the string below
@@ -215,3 +216,4 @@ public class ExtendedBufferedReaderTest {
         return new ExtendedBufferedReader(new StringReader(s));
     }
 }
+*/
