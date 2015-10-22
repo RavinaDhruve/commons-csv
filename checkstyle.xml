@@ -55,7 +55,7 @@ limitations under the License.
     <property name="severity" value="warning" />
   </module>
 
-  <module name="ArrayTypeStyle"/>
+  
 
   <module name="TreeWalker">
     <property name="cacheFile" value="target/cachefile" />
@@ -70,4 +70,6 @@ limitations under the License.
  
 
 </module>
+
+<module name="ArrayTypeStyle"/>
 
