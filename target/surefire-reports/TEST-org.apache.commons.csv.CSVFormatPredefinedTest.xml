@@ -64,6 +64,6 @@
   <testcase name="testTDF" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0"/>
   <testcase name="testExcel" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0"/>
   <testcase name="testMySQL" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0"/>
-  <testcase name="testRFC4180" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0.001"/>
-  <testcase name="testDefault" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0"/>
+  <testcase name="testRFC4180" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0"/>
+  <testcase name="testDefault" classname="org.apache.commons.csv.CSVFormatPredefinedTest" time="0.001"/>
 </testsuite>

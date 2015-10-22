@@ -62,20 +62,20 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testRemoveAndAddColumns" classname="org.apache.commons.csv.CSVRecordTest" time="0.001"/>
-  <testcase name="testPutInMap" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
-  <testcase name="testIsConsistent" classname="org.apache.commons.csv.CSVRecordTest" time="0.001"/>
+  <testcase name="testPutInMap" classname="org.apache.commons.csv.CSVRecordTest" time="0.001"/>
+  <testcase name="testIsConsistent" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
   <testcase name="testIsSet" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
-  <testcase name="testToMap" classname="org.apache.commons.csv.CSVRecordTest" time="0.001"/>
+  <testcase name="testToMap" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
   <testcase name="testIsMapped" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
   <testcase name="testGetStringInconsistentRecord" classname="org.apache.commons.csv.CSVRecordTest" time="0.001"/>
-  <testcase name="testToMapWithShortRecord" classname="org.apache.commons.csv.CSVRecordTest" time="0.001"/>
-  <testcase name="testGetStringNoHeader" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
+  <testcase name="testToMapWithShortRecord" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
+  <testcase name="testGetStringNoHeader" classname="org.apache.commons.csv.CSVRecordTest" time="0.001"/>
   <testcase name="testGetUnmappedPositiveInt" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
   <testcase name="testGetUnmappedNegativeInt" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
   <testcase name="testGetUnmappedEnum" classname="org.apache.commons.csv.CSVRecordTest" time="0.001"/>
   <testcase name="testGetUnmappedName" classname="org.apache.commons.csv.CSVRecordTest" time="0.001"/>
   <testcase name="testGetInt" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
-  <testcase name="testGetString" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
-  <testcase name="testIterator" classname="org.apache.commons.csv.CSVRecordTest" time="0.001"/>
+  <testcase name="testGetString" classname="org.apache.commons.csv.CSVRecordTest" time="0.002"/>
+  <testcase name="testIterator" classname="org.apache.commons.csv.CSVRecordTest" time="0"/>
   <testcase name="testToMapWithNoHeader" classname="org.apache.commons.csv.CSVRecordTest" time="0.001"/>
 </testsuite>

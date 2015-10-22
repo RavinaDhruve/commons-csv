@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.csv.CSVPrinterTest" time="1.355" tests="46" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.csv.CSVPrinterTest" time="1.771" tests="46" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
@@ -61,15 +61,15 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testHeaderCommentTdf" classname="org.apache.commons.csv.CSVPrinterTest" time="0.028"/>
-  <testcase name="testDelimeterQuoteNONE" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
-  <testcase name="testHeaderNotSet" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testHeaderCommentTdf" classname="org.apache.commons.csv.CSVPrinterTest" time="0.029"/>
+  <testcase name="testDelimeterQuoteNONE" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
+  <testcase name="testHeaderNotSet" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
   <testcase name="testExcelPrintAllArrayOfLists" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testPrint" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
-  <testcase name="testQuoteNonNumeric" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
-  <testcase name="testJdbcPrinterWithResultSetMetaData" classname="org.apache.commons.csv.CSVPrinterTest" time="0.502"/>
-  <testcase name="testEOLEscaped" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
-  <testcase name="testPrinter1" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testQuoteNonNumeric" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
+  <testcase name="testJdbcPrinterWithResultSetMetaData" classname="org.apache.commons.csv.CSVPrinterTest" time="0.5"/>
+  <testcase name="testEOLEscaped" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testPrinter1" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
   <testcase name="testPrinter2" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testPrinter3" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testPrinter4" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
@@ -79,29 +79,29 @@
   <testcase name="testDelimiterPlain" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testSingleQuoteQuoted" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testQuoteAll" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
-  <testcase name="testEOLQuoted" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testEOLQuoted" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
   <testcase name="testEOLPlain" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testExcelPrintAllIterableOfLists" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testDelimeterQuoted" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
-  <testcase name="testSkipHeaderRecordFalse" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testSkipHeaderRecordFalse" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
   <testcase name="testPlainPlain" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
-  <testcase name="testSingleLineComment" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testSingleLineComment" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
   <testcase name="testExcelPrintAllIterableOfArrays" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
-  <testcase name="testNewCsvPrinterAppendableNullFormat" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
+  <testcase name="testNewCsvPrinterAppendableNullFormat" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testInvalidFormat" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testMultiLineComment" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
-  <testcase name="testJdbcPrinterWithResultSet" classname="org.apache.commons.csv.CSVPrinterTest" time="0.004"/>
-  <testcase name="testPlainQuoted" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
+  <testcase name="testJdbcPrinterWithResultSet" classname="org.apache.commons.csv.CSVPrinterTest" time="0.026"/>
+  <testcase name="testPlainQuoted" classname="org.apache.commons.csv.CSVPrinterTest" time="0.009"/>
   <testcase name="testExcelPrintAllArrayOfArrays" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
-  <testcase name="testJdbcPrinter" classname="org.apache.commons.csv.CSVPrinterTest" time="0.004"/>
+  <testcase name="testJdbcPrinter" classname="org.apache.commons.csv.CSVPrinterTest" time="0.005"/>
   <testcase name="testSkipHeaderRecordTrue" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
-  <testcase name="testDelimiterEscaped" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testDelimiterEscaped" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
   <testcase name="testHeader" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testParseCustomNullValues" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testPrintCustomNullValues" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
-  <testcase name="testPrintNullValues" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
-  <testcase name="testRandom" classname="org.apache.commons.csv.CSVPrinterTest" time="0.811"/>
-  <testcase name="testHeaderCommentExcel" classname="org.apache.commons.csv.CSVPrinterTest" time="0.001"/>
+  <testcase name="testPrintNullValues" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
+  <testcase name="testRandom" classname="org.apache.commons.csv.CSVPrinterTest" time="1.193"/>
+  <testcase name="testHeaderCommentExcel" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testExcelPrinter1" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testExcelPrinter2" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
   <testcase name="testNewCSVPrinterNullAppendableFormat" classname="org.apache.commons.csv.CSVPrinterTest" time="0"/>
