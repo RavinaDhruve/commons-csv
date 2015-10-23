@@ -3,10 +3,11 @@ import sys
 import os
 
 fileHandle = open(sys.argv[1])
-
+'''
 if "credentials.csv" in fileHandle:
     sys.stderr.write ('Access key ID found \n')
     sys.exit(-1)
+'''
 
 allLines = fileHandle.readlines();
 #print allLines
