@@ -1,7 +1,8 @@
 import re
 import sys
 
-allLines = open(sys.argv[1])
+fileHandle = open(sys.argv[1])
+allLines = fileHandle.readlines();
 #print allLines
 
 for l in allLines:
