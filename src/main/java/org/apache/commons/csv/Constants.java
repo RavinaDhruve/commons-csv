@@ -65,11 +65,11 @@ final class Constants {
     /**
      * Unicode paragraph separator.
      */
-    static final String PARAGRAPH_SEPARATOR = "\u2029";
+    	static final String PARAGRAPH_SEPARATOR = "\u2029";
 
     /**
      * Unicode next line.
      */
-    static final String NEXT_LINE = "\u0085";
+static final String NEXT_LINE = "\u0085";
 
 }

@@ -65,9 +65,6 @@ limitations under the License.
     <module name="LineLength">
       <property name="max" value="120"/>
     </module>
-    <module name="ArrayTypeStyle">
-    <property name="javaStyle" value="false"/>
-	</module>
 	<module name="Indentation">
       <property name="caseIndent" value="0"/>
 	</module>
