@@ -3,11 +3,6 @@ import sys
 import os
 
 fileHandle = open(sys.argv[1])
-'''
-if "credentials.csv" in fileHandle:
-    sys.stderr.write ('Access key ID found \n')
-    sys.exit(-1)
-'''
 
 allLines = fileHandle.readlines();
 #print allLines
@@ -32,16 +27,3 @@ for l in allLines:
         sys.stderr.write ('Digital ocean token \n')
         sys.exit(-1)
 
-
-'''
-import sys
-filenames = os.listdir(os.curdir)
-
-for filename in filenames:
-    if os.path.isfile(filename) and filename.endswith(".txt"):
-        sys.stderr.write ('File exists \n')
-        break
-else:
-    sys.stderr.write ('No database file found. Exiting program. \n')
-    sys.exit(-1)
-'''
