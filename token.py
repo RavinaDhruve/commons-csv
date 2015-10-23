@@ -4,10 +4,6 @@ import sys
 allLines = open(sys.argv[1])
 print allLines
 
-#with open("aws.js") as file_trial:
-#   allLines = file_trial.readlines();
-print "working please now!!!!"
-
 for l in allLines:
     m = re.search("(\s|\"|\'|^|\A)AK[A-Z0-9]{18}(\s|\"|\'|$|\z)", l);
     if m:
