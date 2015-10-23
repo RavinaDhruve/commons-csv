@@ -8,7 +8,7 @@ comment1 = '//'
 comment2 = '/*'
 comment3 = '*/'
 flag = 0
-
+flag2 = 0
 for line in fhandle:
 	if comment1 in line:
 		count = count + 1;
