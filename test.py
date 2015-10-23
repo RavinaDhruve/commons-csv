@@ -1,8 +1,6 @@
 import sys
 
-'''fhandle = open('test.java')'''
 fhandle = open(sys.argv[1])
-
 
 count = 0
 code = 0
@@ -29,6 +27,4 @@ for line in fhandle:
 		else:
 			code = code + 1;
 
-
-print ("Comments:", count)
-print ("Code:", code)
+print ("Comments:Code", count+":"+code)
