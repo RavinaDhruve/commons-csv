@@ -27,4 +27,4 @@ for line in fhandle:
 		else:
 			code = code + 1;
 
-print ("Comments:Code", count+":"+code)
+print ("Comments:Code = %d:%d" % (count,code))
