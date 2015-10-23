@@ -1,21 +1,10 @@
 import os
 import sys
 filenames = os.listdir(sys.argv[1])
+filetype = 'credentials.csv'
+ext = '.pem'
 
-
-filename = 'credentials.csv'
-if filename in filenames:
-    print "YES"
-    sys.stderr.write ('File exists \n')
-    sys.exit(-1)
-
-
-'''
 for filename in filenames:
-    if os.path.isfile(filename) and filename.endswith(".txt"):
-        sys.stderr.write ('File exists \n')
-        break
-else:
-    sys.stderr.write ('No database file found. Exiting program. \n')
-    sys.exit(-1)
-'''
+    if filetype in filename or ext in filename:
+        sys.stderr.write ('File exists : %s\n'%filename)
+        sys.exit(-1)
