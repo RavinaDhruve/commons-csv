@@ -2,7 +2,7 @@ import re
 import sys
 
 allLines = open(sys.argv[1])
-print allLines
+#print allLines
 
 for l in allLines:
     m = re.search("(\s|\"|\'|^|\A)AK[A-Z0-9]{18}(\s|\"|\'|$|\z)", l);
