@@ -31,5 +31,5 @@ print ("Comments:Code = %d:%d\n" % (count,code))
 
 ratio = count/code
 if(ratio > 2):
-    sys.stderr.write("\nCannot exceed defined comment:code ratio")
+    sys.stderr.write("Cannot exceed defined comment:code ratio\n")
     sys.exit(-1)
