@@ -27,10 +27,9 @@ for line in fhandle:
         else:
             code = code + 1;
 
-print ("Comments:Code = %d:%d" % (count,code))
-'''
+print ("Comments:Code = %d:%d\n" % (count,code))
+
 ratio = count/code
-if(ratio > 1):
-    sys.stderr.write("Cannot exceed defined comment:code ratio")
+if(ratio > 2):
+    sys.stderr.write("\nCannot exceed defined comment:code ratio")
     sys.exit(-1)
-'''
