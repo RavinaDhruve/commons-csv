@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.commons.csv.LexerTest" time="0.019" tests="26" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.commons.csv.LexerTest" time="0.046" tests="26" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
@@ -62,25 +62,25 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testNextToken4" classname="org.apache.commons.csv.LexerTest" time="0.013"/>
-  <testcase name="testNextToken5" classname="org.apache.commons.csv.LexerTest" time="0.001"/>
-  <testcase name="testNextToken6" classname="org.apache.commons.csv.LexerTest" time="0"/>
+  <testcase name="testNextToken5" classname="org.apache.commons.csv.LexerTest" time="0"/>
+  <testcase name="testNextToken6" classname="org.apache.commons.csv.LexerTest" time="0.001"/>
   <testcase name="testTab" classname="org.apache.commons.csv.LexerTest" time="0"/>
-  <testcase name="testSurroundingSpacesAreDeleted" classname="org.apache.commons.csv.LexerTest" time="0.002"/>
+  <testcase name="testSurroundingSpacesAreDeleted" classname="org.apache.commons.csv.LexerTest" time="0.007"/>
   <testcase name="testEscapedControlCharacter2" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testCommentsAndEmptyLines" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testCR" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testFF" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testLF" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testEscapedTab" classname="org.apache.commons.csv.LexerTest" time="0"/>
-  <testcase name="testComments" classname="org.apache.commons.csv.LexerTest" time="0.001"/>
+  <testcase name="testComments" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testSurroundingTabsAreDeleted" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testEscapingAtEOF" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testEscapedMySqlNullValue" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testEscapedBackspace" classname="org.apache.commons.csv.LexerTest" time="0"/>
-  <testcase name="testBackslashWithEscaping" classname="org.apache.commons.csv.LexerTest" time="0.001"/>
+  <testcase name="testBackslashWithEscaping" classname="org.apache.commons.csv.LexerTest" time="0.025"/>
   <testcase name="testEscapedCharacter" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testBackslashWithoutEscaping" classname="org.apache.commons.csv.LexerTest" time="0"/>
-  <testcase name="testDelimiterIsWhitespace" classname="org.apache.commons.csv.LexerTest" time="0.001"/>
+  <testcase name="testDelimiterIsWhitespace" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testIgnoreEmptyLines" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testEscapedControlCharacter" classname="org.apache.commons.csv.LexerTest" time="0"/>
   <testcase name="testEscapedCR" classname="org.apache.commons.csv.LexerTest" time="0"/>

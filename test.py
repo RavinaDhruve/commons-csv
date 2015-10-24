@@ -28,3 +28,7 @@ for line in fhandle:
             code = code + 1;
 
 print ("Comments:Code = %d:%d" % (count,code))
+ratio = count/code
+if(ratio > 1)
+    sys.stderr.write("Cannot exceed defined comment:code ratio")
+    sys.exit(-1)
